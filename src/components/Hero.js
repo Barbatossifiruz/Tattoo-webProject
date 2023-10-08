@@ -25,7 +25,7 @@ const Hero = () => {
 
     return (
         <>
-            <section className="bg-hero bg-cover bg-center min-h-[40vh] lg:min-h-[70vh] lg-h-[948px] bg-no-repeat relative mt-[120px] lg:mt-[150px]">
+            <section className="bg-hero bg-cover bg-center min-h-[40vh] lg:min-h-[85vh] lg-h-[948px] bg-no-repeat relative mt-[120px] lg:mt-[150px]">
                 <motion.div
                     variants={container}
                     initial="hidden"
