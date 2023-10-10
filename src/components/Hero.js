@@ -1,12 +1,12 @@
 import React from "react";
 
-// import hero Data
+//* import hero Data
 import { heroData } from "../data";
 
-// import motion
+//* import motion
 import { motion } from "framer-motion";
 
-// import fadeIn
+//* import fadeIn
 import { fadeIn } from "../variants";
 
 const container = {
@@ -20,12 +20,12 @@ const container = {
 };
 
 const Hero = () => {
-    // Destructure hero data
+    //* Destructure hero data
     const { title, subtitle, btnIcon, btnText } = heroData;
 
     return (
         <>
-            <section className="bg-hero bg-cover bg-center min-h-[40vh] lg:min-h-[70vh] lg-h-[948px] bg-no-repeat relative mt-[120px] lg:mt-[150px]">
+            <section className="bg-hero bg-cover bg-center min-h-[40vh] lg:min-h-[85vh] lg-h-[948px] bg-no-repeat relative mt-[120px] lg:mt-[150px]">
                 <motion.div
                     variants={container}
                     initial="hidden"
