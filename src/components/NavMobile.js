@@ -1,13 +1,13 @@
 import React from "react";
 
-// import nav data
+//* import nav data
 import { navData } from "../data";
 
-// import components
+//* import components
 import Socials from "./Socials";
 
 const NavMobile = () => {
-    // Destructure nav data
+    //* Destructure nav data
     const { items } = navData;
 
     return (
@@ -31,5 +31,3 @@ const NavMobile = () => {
 };
 
 export default NavMobile;
-
-// Video quedaste en el minuto 23:40

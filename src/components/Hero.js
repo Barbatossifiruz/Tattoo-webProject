@@ -1,12 +1,12 @@
 import React from "react";
 
-// import hero Data
+//* import hero Data
 import { heroData } from "../data";
 
-// import motion
+//* import motion
 import { motion } from "framer-motion";
 
-// import fadeIn
+//* import fadeIn
 import { fadeIn } from "../variants";
 
 const container = {
@@ -20,7 +20,7 @@ const container = {
 };
 
 const Hero = () => {
-    // Destructure hero data
+    //* Destructure hero data
     const { title, subtitle, btnIcon, btnText } = heroData;
 
     return (
