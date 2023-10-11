@@ -75,5 +75,3 @@ const GallerySection = () => {
 };
 
 export default GallerySection;
-
-// 43:37
