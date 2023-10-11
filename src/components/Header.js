@@ -35,7 +35,7 @@ const Header = () => {
             <div className="flex justify-between items-center h-full pl-[50px] pr-[60px]">
                 {/* Logo */}
                 <a href="/">
-                    <img className="w-[188px] h-[90px]" src={logo} alt="" />
+                    <img className="w-[100px] h-[100px]" src={logo} alt="" />
                 </a>
                 {/*  Nav - initiially hidden - show on desktop */}
                 <div className="hidden xl:flex">
