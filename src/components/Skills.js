@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from "react";
 
-import { useMemo } from "react";
-
 //* UseView Hook
 import { useInView } from "react-intersection-observer";
 
