@@ -112,6 +112,13 @@ export const galleryData = {
     ],
 };
 
+export const percentageSkills = [
+    { name: "Full Body", value: 90 },
+    { name: "Irezumi", value: 95 },
+    { name: "Old School", value: 70 },
+    { name: "Realism", value: 80 },
+];
+
 export const interviewData = {
     title: "“Consider what you desire. Your tattoo artist will never tell you what tattoo to have.”",
     btnText: "Watch it now",
