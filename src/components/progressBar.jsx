@@ -24,7 +24,7 @@ const ProgressBar = ({ name, percentage }) => {
         } else {
             setCurrentPercentage(0);
         }
-    }, [inView, currentPercentage]);
+    }, [inView, currentPercentage, percentage]);
 
     //! Circular progressbar styles
     const styles = {
@@ -44,7 +44,7 @@ const ProgressBar = ({ name, percentage }) => {
         <div ref={ref} className="w-[150px] lg:w-[275px] flex flex-col items-center gap-y-6">
             <div>
                 <CircularProgressbar strokeWidth={1} value={currentPercentage} styles={styles} text={`${currentPercentage}%`} />
-                <div className="uppercase font-light tracking-[1.2px] text-center">{name}</div>
+                <div className="uppercase text-2xl font-light tracking-[1.2px] pt-4 text-center">{name}</div>
             </div>
         </div>
     );
