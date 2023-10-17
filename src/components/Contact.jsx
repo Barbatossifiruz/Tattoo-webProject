@@ -2,10 +2,10 @@
 import { contactData } from "../data";
 
 //* Import Motion
-// import { motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 //* Import fade In
-// import { fadeIn } from "../variants";
+import { fadeIn } from "../variants";
 
 const Contact = () => {
     //? Destructure contact data
@@ -16,7 +16,13 @@ const Contact = () => {
                 <div className="container mx-auto">
                     <div className="flex flex-col xl:flex-row gap-y-16">
                         {/* text */}
-                        <div className="flex-1">
+                        <motion.div
+                            variants={fadeIn("right")}
+                            initial="hidden"
+                            whileInView={"show"}
+                            viewport={{ once: false, amount: 0.4 }}
+                            className="flex-1"
+                        >
                             {/* title */}
                             <h2 className="h2 max-w-[490px]">{title}</h2>
                             {/* info items */}
@@ -56,9 +62,15 @@ const Contact = () => {
                                     );
                                 })}
                             </div>
-                        </div>
+                        </motion.div>
                         {/* form */}
-                        <div className="flex-1 xl:pl-[40px] flex justify-center items-center">
+                        <motion.div
+                            variants={fadeIn("left")}
+                            initial="hidden"
+                            whileInView={"show"}
+                            viewport={{ once: false, amount: 0.4 }}
+                            className="flex-1 xl:pl-[40px] flex justify-center items-center"
+                        >
                             <form className="flex flex-col gap-y-10 w-full">
                                 <input
                                     className="border-b border-dark placeholder:text-[#555] italic tracking-[0.06em] outline-none pb-4"
@@ -78,7 +90,7 @@ const Contact = () => {
                                 {/* btn */}
                                 <button className="btn btn-sm btn-dark self-center">{form.btnText}</button>
                             </form>
-                        </div>
+                        </motion.div>
                     </div>
                 </div>
             </section>
