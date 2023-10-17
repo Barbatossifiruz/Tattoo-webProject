@@ -58,13 +58,25 @@ const Contact = () => {
                             </div>
                         </div>
                         {/* form */}
-                        <div className="bg-pink-200">
-                            <form className="flex flex-col">
+                        <div className="flex-1 xl:pl-[40px] flex justify-center items-center">
+                            <form className="flex flex-col gap-y-10 w-full">
                                 <input
                                     className="border-b border-dark placeholder:text-[#555] italic tracking-[0.06em] outline-none pb-4"
                                     placeholder={form.name}
                                     type="text"
                                 />
+                                <input
+                                    className="border-b border-dark placeholder:text-[#555] italic tracking-[0.06em] outline-none pb-4"
+                                    placeholder={form.email}
+                                    type="email"
+                                />
+                                <input
+                                    className="border-b border-dark placeholder:text-[#555] italic tracking-[0.06em] outline-none pb-4"
+                                    placeholder={form.message}
+                                    type="text"
+                                />
+                                {/* btn */}
+                                <button className="btn btn-sm btn-dark self-center">{form.btnText}</button>
                             </form>
                         </div>
                     </div>
