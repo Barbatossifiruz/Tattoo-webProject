@@ -136,14 +136,14 @@ export const testimonialData = [
     {
         quoteImg: QuoteImg,
         message:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam culpa asperiores officia natus dignissimos autem possimus molestias aperiam?",
+            "Every tattoo radiates an overall energy frequency, and its individual elements such as color, size, shape, and symbology radiate their own energies as well.",
         name: "Douglas Hane",
         occupation: "Tattoo Artist",
     },
     {
         quoteImg: QuoteImg,
         message:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam culpa asperiores officia natus dignissimos autem possimus molestias aperiam?",
+            "I see you in every flower in the park, every color in a rainbow, and in every scent that reminds me of the things I love. Without knowing how, or even why it happened, I can’t imagine a world where you don’t exist.",
         name: "Richard Paker",
         occupation: "Tattoo Artist",
     },
