@@ -1,4 +1,3 @@
-import React from "react";
 //* Import testimonial data
 import { testimonialData } from "../data";
 
