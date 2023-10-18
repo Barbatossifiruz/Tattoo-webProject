@@ -10,11 +10,11 @@ import GalleryImg7 from "../src/img/gallery/7.png";
 import GalleryImg8 from "../src/img/gallery/8.png";
 import QuoteImg from "../src/img/testimonial/quote.svg";
 //* import icons
-import { GrFacebookOption } from "react-icons/gr";
+
 import { IoMdArrowForward } from "react-icons/io";
 import { FiSend } from "react-icons/fi";
 import { FaPlay, FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
-import { IoLogoInstagram, IoLogoPinterest, IoLogoTwitter, IoLogoYoutube } from "react-icons/io";
+import { IoLogoLinkedin, IoLogoPinterest, IoLogoYoutube, IoLogoGithub } from "react-icons/io";
 
 export const headerData = {
     logo: Logo,
@@ -32,11 +32,10 @@ export const navData = {
 };
 
 export const socialData = [
-    { href: "/", icon: <GrFacebookOption /> },
-    { href: "/", icon: <IoLogoInstagram /> },
     { href: "/", icon: <IoLogoPinterest /> },
-    { href: "/", icon: <IoLogoTwitter /> },
-    { href: "/", icon: <IoLogoYoutube /> },
+    { href: "https://www.linkedin.com/in/barbatossifiruz", icon: <IoLogoLinkedin /> },
+    { href: "https://github.com/Barbatossifiruz", icon: <IoLogoGithub /> },
+    { href: "https://www.youtube.com/watch?v=dQw4w9WgXcQ", icon: <IoLogoYoutube /> },
 ];
 
 export const heroData = {
@@ -197,7 +196,7 @@ export const contactData = {
 
 export const footerData = {
     about: {
-        title: "About void tattoo",
+        title: "About Zyphirus tattoo",
         subtitle: "Sit amet, consectetur nun in velit arcu posuere integer. Adipiscing elit duis porttitor massa tellus",
         address: {
             icon: <FaMapMarkerAlt />,
