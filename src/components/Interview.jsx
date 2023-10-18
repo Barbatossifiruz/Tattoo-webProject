@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 //* Import data
 import { interviewData } from "../data";
@@ -16,9 +16,9 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 
 const Interview = () => {
-    //* Destructure interview data
+    //! Destructure interview data
     const { title, btnText, btnIcon } = interviewData;
-    //* Open state
+    //! Open state
     const [isOpen, setIsOpen] = useState(false);
 
     return (
