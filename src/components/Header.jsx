@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 //* import heasder data
 import { headerData } from "../data";
@@ -14,13 +14,13 @@ import Socials from "./Socials";
 import { TiThMenuOutline } from "react-icons/ti";
 
 const Header = () => {
-    //* Destructure header
+    //! Destructure header
     const { logo } = headerData;
-    //* Header state
+    //! Header state
     const [isActive, setIsActive] = useState(false);
-    //* nav mobile state
+    //! nav mobile state
     const [navMobile, setNavMobile] = useState(false);
-    //* Scroll event
+    //! Scroll event
     useEffect(() => {
         window.addEventListener("scroll", () => {
             window.scrollY > 50 ? setIsActive(true) : setIsActive(false);

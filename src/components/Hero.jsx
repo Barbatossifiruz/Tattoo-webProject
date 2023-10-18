@@ -1,5 +1,3 @@
-import React from "react";
-
 //* import hero Data
 import { heroData } from "../data";
 
@@ -20,7 +18,7 @@ const container = {
 };
 
 const Hero = () => {
-    //* Destructure hero data
+    //! Destructure hero data
     const { title, subtitle, btnIcon, btnText } = heroData;
 
     return (

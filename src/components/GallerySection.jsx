@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 //* Import gallery data
 import { galleryData } from "../data";

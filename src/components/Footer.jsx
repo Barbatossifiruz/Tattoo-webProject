@@ -1,5 +1,3 @@
-import React from "react";
-
 //* Import footer data
 import { footerData } from "../data";
 
