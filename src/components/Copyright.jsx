@@ -1,5 +1,3 @@
-import React from "react";
-
 //* Import motion
 import { motion } from "framer-motion";
 
