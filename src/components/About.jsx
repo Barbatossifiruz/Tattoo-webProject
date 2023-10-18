@@ -1,5 +1,3 @@
-import React from "react";
-
 //* import about Data
 import { aboutData } from "../data";
 
@@ -10,7 +8,7 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 
 const About = () => {
-    //* Destructure about Data
+    //! Destructure about Data
     const { title, subtitle1, subtitle2, btnText, btnIcon } = aboutData;
 
     return (
