@@ -1,10 +1,8 @@
-import React from "react";
-
-// import nav data
+//* import nav data
 import { navData } from "../data";
 
 const Nav = () => {
-    // Destructure nav data
+    //! Destructure nav data
     const { items } = navData;
     return (
         <nav>
