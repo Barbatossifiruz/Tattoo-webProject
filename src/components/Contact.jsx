@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 
 const Contact = () => {
-    //? Destructure contact data
+    //! Destructure contact data
     const { title, info, form } = contactData;
     return (
         <>
