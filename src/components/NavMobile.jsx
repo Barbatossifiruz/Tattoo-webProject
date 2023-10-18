@@ -1,5 +1,3 @@
-import React from "react";
-
 //* import nav data
 import { navData } from "../data";
 
@@ -7,7 +5,7 @@ import { navData } from "../data";
 import Socials from "./Socials";
 
 const NavMobile = () => {
-    //* Destructure nav data
+    //! Destructure nav data
     const { items } = navData;
 
     return (
